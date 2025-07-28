@@ -100,8 +100,8 @@ python app.py
 ##  Authors
 
 - **Kavya Ramesh**
-- [Team Member 2]
-- [Team Member 3]
-- [Team Member 4]
+- **Sruthi S**
+- **Karan C J**
+- **Rohan S**
 
 
