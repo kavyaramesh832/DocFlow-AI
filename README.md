@@ -1,15 +1,15 @@
-# 📄 DocuFlow AI
+# DocuFlow AI
 
 DocuFlow AI is a full-stack AI-powered system that automates the **ingestion, classification, and routing of documents**, with an intuitive dashboard for real-time tracking and analytics.
 
 ---
 
-## 🚀 Demo Video
+## Demo Video
 🎥 [Watch the demo here](https://your-video-link.com)
 
 ---
 
-## 🔍 Features
+## Features
 
 - 📥 Drag-and-drop document upload
 - 📧 Email ingestion (auto-fetches from Gmail)
@@ -20,7 +20,7 @@ DocuFlow AI is a full-stack AI-powered system that automates the **ingestion, cl
 
 ---
 
-## 🧠 Tech Stack
+## Tech Stack
 
 | Layer      | Technology           |
 |------------|----------------------|
@@ -34,7 +34,7 @@ DocuFlow AI is a full-stack AI-powered system that automates the **ingestion, cl
 
 ---
 
-## 🏗️ Architecture Overview
+## Architecture Overview
 
 ```mermaid
 flowchart TD
@@ -43,3 +43,65 @@ flowchart TD
     C --> D[ML Classification]
     D --> E[File Routing]
     E --> F[Dashboard Update]
+```
+##  How to Run
+
+### Clone the repo
+```bash
+git clone https://github.com/yourusername/docuflow-ai.git
+cd docuflow-ai
+```
+## Create a virtual environment
+```bash
+python -m venv venv
+source venv/bin/activate  # On Windows use: venv\Scripts\activate
+```
+
+## Install dependencies
+```bash
+pip install -r requirements.txt
+```
+
+##Run the app
+```bash
+python app.py
+```
+
+##  Email Setup
+
+- Enable **IMAP access** in your Gmail settings.  
+- Generate a **Gmail App Password** and update it in `email_ingestion.py`.  
+- The system will check for new attachments every **15 minutes** by default.
+
+---
+
+##  Dashboard Preview
+
+-  **Live classification counts**
+-  **Pie chart** of document types
+-  **Pipeline progress** (Ingested → Extracted → Classified → Routed)
+
+---
+
+##  Deployment
+
+-  Developed and tested locally using **VS Code**
+
+---
+
+##  Future Enhancements
+
+-  LLM-based **entity extraction**
+-  **Authentication and access control**
+-  **Cloud storage integration** (AWS S3, Google Drive)
+
+---
+
+##  Authors
+
+- **Kavya Ramesh**
+- [Team Member 2]
+- [Team Member 3]
+- [Team Member 4]
+
+
